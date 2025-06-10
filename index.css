@@ -1,0 +1,245 @@
+#header {
+    background-image: url(./images/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 740px;
+    width: 100%;
+    margin: 0;
+
+
+
+
+}
+
+
+body {
+    margin: 0;
+
+}
+
+.double-border {
+    display: inline-block;
+    padding: 4px;
+    border: 2px solid rgb(103, 142, 62);
+    margin-left: 43%;
+    margin-top: 0;
+    height: 50PX;
+    margin-bottom: 0;
+}
+
+.explore-btn {
+    margin-top: 0;
+    background-color: rgb(103, 142, 62);
+
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    height: 50PX;
+    font-family: Arial, sans-serif;
+}
+
+#menu {
+    height: 100px;
+    position: fixed;
+    width: 100px;
+}
+
+#para1 {
+    text-align: center;
+    font-family: 'Dancing Script';
+    color: rgb(103, 142, 62);
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 0;
+
+    padding-top: 200px;
+
+}
+
+#para2 {
+    text-align: center;
+    font-size: 65px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin-top: 10px;
+    color: white;
+
+
+
+
+}
+
+/* second box */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.four-box {
+    width: 25%;
+    height: 240px;
+    background-color: rgb(241, 245, 248);
+    display: inline-block;
+    transition: 0.4s;
+
+}
+
+.four-box:hover {
+    background-color: white;
+}
+
+.icon1 {
+    margin-left: 165px;
+    margin-bottom: 35px;
+    margin-top: 40px;
+    color: rgb(103, 142, 62)
+}
+
+.skills {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.skill-description {
+    font-size: 16px;
+    text-align: center;
+    color: #8e8e8e;
+    margin-top: 25px;
+}
+
+.p1 {
+    color: #8e8e8e;
+}
+
+#learnmore {
+    width: 150px;
+    height: 30px;
+    color: white;
+    background-color: rgb(103, 142, 62);
+    border: none;
+    font-weight: bold;
+}
+#learnmore:hover{
+     background-color: #BEED8C;
+    color: green;
+}
+#about{
+     font-family: 'Dancing Script';
+      color: rgb(103, 142, 62);
+       font-size: 40px; 
+       font-weight: bolder;
+}
+
+#about-img {
+    height: 300px;
+    width: 450px;
+    margin-left: 200px;
+    margin-top: 120px;
+    margin-right: 0;
+    border: 8px solid rgb(103, 142, 62);
+    margin-right: 0;
+}
+
+
+
+
+
+/*------------------------------------------------our products------------------------------------------------------------------- */
+
+
+#our-products{
+    height:550px; width: 100%; background-color: rgb(241, 245, 248); margin: 0; display: flex; 
+}
+
+
+
+.our-product-images{
+    height: 260px; width: 240px; border-radius: 10px;
+}
+
+.our-product-image-boxes{
+    width:280px; height: 400px;padding-top: 100px; padding-left:0;padding-right: 0;margin-left: 0;margin-right: 0;
+}
+.our-pro-names{
+    letter-spacing: 3px; font-size: 20px; color: rgb(103, 142, 62);
+}
+
+
+
+/* --------------------------------expolore part------------------------------------------------------------------------------- */
+
+
+
+
+.expolore-images-div{
+    width: 330px; height: 520px; padding-top: 50px; margin-right: 40px;
+}
+
+
+.expo-images{
+    height: 280px; width: 330px;border-top-left-radius: 10px; border-top-right-radius: 10px;box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.expo-div-1{width: 330px; height: 280px; border-top-left-radius: 10px; border-top-right-radius: 10px;
+
+}
+.expo-div-2{
+width: 330px; height: 240px; background-color: #F1F5F8; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* -----------------------------contact--------------------------------------------- */
+
+
+.contact-name{
+    color: #678E3E; padding-top: 30px;
+}
+.contacts{
+    padding-top: 10px;
+}
+
+.input-1{
+width: 480px; height: 35px; border-radius: 10PX; padding-left: 10PX;background-color: #F1F5F8; border: none
+}
+
+#submit{
+    text-align: center; background-color: rgb(103, 142, 62); color: white; width: 550px; height: 50px;font-weight: bold;border: none; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;
+}
+#submit-div{
+    width: 550px; height: 50px; background-color: rgb(10, 230, 246);border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;
+}
+
+
+
+.social-icons{
+    color: white; padding-right: 20px;
+}
+
+
+
+
+
+/* ---------------hover------------------- */
+
+.explore-btn:hover{
+    
+    background-color: #BEED8C;
+    color: rgb(103, 142, 62);
+   
+}
+#submit:hover{
+     background-color: #BEED8C;
+    color: rgb(103, 142, 62);
+}
+.social-icons:hover{
+    color: rgb(103, 142, 62);
+}
+
